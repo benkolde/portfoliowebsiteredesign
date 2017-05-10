@@ -1,0 +1,402 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 15pt;
+    overflow-x: hidden;
+}
+#wrapper   {
+    width: 100%;
+    overflow: hidden;
+    display: block;   
+}
+#projects   {
+    width: 100%;
+    margin: 0 auto;
+}
+/*----------------Project cards------------------*/
+.card   {
+    box-shadow: 0 5px 10px 0 #999;
+    transition: 0.3s;
+    max-width: 23%;
+    max-height: 50%;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    margin: 5%
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 #888;
+}
+.container  {
+    height: 20%;
+    line-height: 1px;
+    padding-left: 12px;
+    font-family: brandon grotesque;
+    text-decoration: none;
+}
+.projectTitle   {
+    font-size: 120%;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10%;
+    margin-top: 8%;;
+}
+.projectType    {
+    font-size: 100%pt;
+    line-height: 10pt;
+    text-decoration: none;
+    color: black;
+    margin-top: 0; 
+}
+a   {
+    text-decoration: none; 
+}
+/*--------------Project cards_END---------------*/
+
+
+
+/*---------------Repsonsive Nav-----------------*/
+#nav    {
+    width: 100%;
+    font-family: brandon grotesque;
+    z-index: 1;
+    line-height: 50px;
+}
+#title  {
+    text-align: left;
+    width: 30%;
+    margin-left: 5%;
+    display: inline-flex;
+    padding-top: 0%;
+}
+#navChoices {
+    width: 55%;
+    font-size: 10pt;
+    display: inline-block;
+    text-align: right;
+    z-index: 2;
+    position: relative;
+        float: right;
+    margin-right: 5%;
+
+}
+#intro  {
+    width: 90%;
+    margin-top: 5%;
+    float: left;
+    margin-left: 5%;
+}
+h1 {
+    color: white;
+    display: inline-block;
+    font-family: brandon grotesque;
+    font-size: 48pt%;
+    font-weight: 900;
+    padding-top: 0px;
+}
+/*-----------Repsonsive Nav_END---------------*/
+h2 {
+    color: black;
+    font-family: brandon grotesque;
+    font-size: 24pt;
+    font-weight:700;
+}
+h3  {
+    color: black;
+    font-family: brandon grotesque;
+    font-size: 18pt;
+    font-weight:700;
+    text-decoration: none;
+}
+p  {
+    color: black;
+    font-family: brandon grotesque;
+    font-size: 14pt%;
+}
+/*------------About Page-------------*/
+#aboutContainer {
+    width:90%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+#picture    {
+    width: 50%;
+    float: left;
+    margin-top: 3%;
+    margin-right: 0%;
+}
+#picofme {
+    width: 100%;
+    display: inline-block;
+}
+#about {
+    color: black;
+    font-family: brandon grotesque;
+    font-size: 10pt;
+    float: left;;
+    display: inline-block;
+    width: 35%;
+    z-index: 900;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    width: 40%;
+    padding-top: 2%
+}
+#about > p  {
+    font-size: 1.3em;
+    text-align: justify;
+}
+/*-------------Resume Container---------------*/
+#miniResume {
+    background-color: #ededed;
+    padding: 10px;
+    font-family: brandon grotesque;
+    display: flex;
+    width: 100%;
+    padding-bottom: 30px;
+    margin: 0 auto;
+   
+}
+#education, #skills, #technology, #otherInterests{
+    font-size: 14pt;
+    line-height: 50pt;
+    font-weight: 500;
+}
+div ul li   {
+    list-style-type: none;
+    line-height: 20pt;
+    font-size: 12pt;
+    font-weight: 200;
+    padding-left: 50px;
+    padding-right: 20px;
+    text-align: left;
+}
+/*-------------Resume Container_END---------------*/
+/*---------------About Page_END---------------*/
+
+
+/*------------------Footer-----------------*/
+#footer  {
+    display: block;
+    overflow-x: hidden;
+    background: #ededed;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+    bottom: 0;
+    clear:inherit;
+}
+#signature  {
+    color: grey;
+    font-size: 10pt;
+}
+/*-------------------Footer_END-----------------*/
+
+/*-----------------Connect button----------------*/
+.connectButton  {
+    text-decoration: none;
+    background-color: #C4414B;
+    height: 300%;
+    text-align: center;
+    max-width: 40%;
+    border-radius: 37.5px;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 5em;
+    box-shadow: 0 5px 10px 0 #999;
+        transition: 0.3s;
+}
+.connectButton:hover    {
+    box-shadow: 0 8px 16px 0 #888;
+}
+.button {
+    font-family: brandon grotesque;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    line-height: 3.7em;
+    font-size: 100%;
+}
+/*-----------------Connect button_END----------------*/
+.connectPage    {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+/*-----------Project Pages-----------*/
+.heroImage  {
+    width: 60%;
+    align-items: center;
+}
+.hero   {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    margin-top: -20%;
+}
+#titleWrap {
+   background-color: #efefef; 
+    width: 100%;
+    display:inherit;
+    margin-top: -175px;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: 3em;
+}
+.projectIntro   {
+    width: 40%;
+    margin: auto;
+    padding-top: 5%;
+}
+
+.projectIntro > p   {
+    text-align: left;
+}
+#projectInfo    {
+    width: 80%;
+    margin: 0 auto;
+}
+.dotDivider {
+    text-align: center;
+    margin-left: 50%;;
+}
+.projectLeft    {
+    display: inline-flex;
+}
+.leftImage  {
+    width: 30%; 
+}
+.leftImageSW > img  {
+    width: 20em;
+}
+.resumeBottom > img  {
+    width: 110%;
+    margin: auto;
+    display: inline-block;
+}
+.rightText   {
+    font-size: 12pt;
+    font-family: brandon grotesque;
+    text-align: justify;
+    padding-right: 10%;
+    margin-top: 1%;
+}
+.projectRight   {
+    display: inline-flex;
+}
+.rightImage  {
+    width: 90%;
+}
+.leftText   {
+    font-size: 12pt;
+    font-family: brandon grotesque;
+    padding-left: 5%;;
+    text-align: justify;
+    margin-top: 1%;
+}
+.finalImage > img {
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+.finalImage > video {
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;;
+}
+#takeawayWrap   {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 5em;
+}
+#takeaway > h4  {
+    font-family: brandon grotesque;
+    font-size: 20pt;
+    font-weight: 800;
+}
+#takeaway > p   {
+    font-size: 16pt;
+}
+/*-----------Project Pages END-----------*/
+h1  {
+    font-family: brandon grotesque;
+    font-weight: 900;
+    font-size: 24pt;
+}
+h5   {
+    font-family: brandon grotesque;
+    font-size: 18pt;
+    font-weight: 400;
+}
+
+/*---------Contact Form----------*/
+
+#contactForm    {
+    width: 30%;
+    margin: 0 auto;
+}
+.form   {
+    font-size: 12pt;
+    line-height: 12pt;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#name, #mail, #subject, #message   {
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: #e9e9e9;
+    border-width: thin;
+    background-color: #efefef;
+}
+#message    {
+    height: 200px;
+}
+#submit  {
+    width: 33%;
+    margin-bottom: 3em;
+    text-align: center;
+    line-height: 28pt;
+    font-size: 60%;
+    align-items: center;
+    background-color: #C4414B;
+    border-radius: 5em;
+    border-style: none;
+    color: white;
+    margin-left: 33%;
+    
+}
+#submit:active   {
+     background-color: #efefef;
+    animation-timing-function: ease-in-out;
+}
+/*---------Contact Form END----------*/
+
+/*---------back to top button-------*/
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none; 
+    outline: none; 
+    background-color: #C4414B; 
+    color: white; 
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px; 
+    font-family: brandon grotesque;
+}
+
+#myBtn:hover {
+    background-color: #777;
+}
+/*---------back to top button END-------*/

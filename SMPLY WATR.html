@@ -1,0 +1,113 @@
+<!doctype html>
+    <html lang=en>
+        <head> 
+            <title>SMPLY WATR</title>
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="mobile.css" media="screen and (min-width: 0px)">
+            <link rel="stylesheet" href="style.css" media="screen and (min-width: 1024px)">
+        <script>
+            window.onscroll = function() {scrollFunction()};
+                function scrollFunction() {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        document.getElementById("myBtn").style.display = "block";
+                    } else {
+                        document.getElementById("myBtn").style.display = "none";
+                    }
+                }
+                function topFunction() {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0; 
+                }
+            </script>
+        </head>
+        <body>
+            <aside>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+            </aside>
+            <header>
+                <div id="nav">
+                    <div id="title">BEN KOLDE</div>
+                    <div id="navChoices">
+                        <a href="index.html">WORK</a>
+                        <a href="about.html">ABOUT</a>
+                        <a href="connect.html">CONNECT</a>
+                        <a href="docs/kolderesumefeb2017.pdf">RESUME</a>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="hero">
+                    <img class="heroImage" src="pi_sw_hero.jpg" alt="Simply Water Hero Image">
+                </div>
+                <div id="titleWrap">
+                    <div class=projectIntro>
+                        <h2>SMPLY WATR</h2>
+                        <p>This is a project I did for my graphic design prototyping class. The goal was to create a mobile app to go along with a water bottle we designed in the previous project. The app would get people to drink more water.</p> 
+                    </div>
+                </div>
+                <div id="projectInfo">
+                    <section class="projectLeft">
+                        <div class="leftImageSW">
+                            <img src="pi_sw_account.jpg" alt="Simply Water App account screen">
+                        </div>
+                        <div class="leftText">
+                            I actually created an entire business model for my water bottle/app. SMPLY WATR sells a water bottle that customers can refill in stores. Everythign is electronic and connected to your bottles so it is easy to track how much water waste you save and plastic you conserve. This is the <em>account</em> screen. This is where the user is able to edit their account info, see all their stats, and see their rankings against their friends. The user can even brag and chat to their friends. This feature was developed to give social aspect to the app to encourage drinking more water.   
+                        </div>
+                    </section>
+                    <div class="dotDivider">
+                        <img src="vertical%20dots.svg">
+                    </div>
+                    <section class="projectRight">
+                        <div class="rightText">
+                            In order to get the stats and even rewards the business needed a way to track how many times the user refills their bottle. This is accomplished through a fountain in grocery stores and other places. The user can search for these places in the <em>locations</em> tab in the app. Through this screen the user can type in their address or even use their current location to find the closest fountain. They can also swipe up on the tab at the bottom if they want to see a full list of stores near them with the fountain. Another feature that I added was the ability for the user to see if they could redeem their rewards at certain locations. So I added a little marker next to the pins if a reward was available there.
+                        </div>
+                        <div>
+                            <img class="rightImage" src="pi_sw_locations.jpg" alt="Simply Water App Locations screen">
+                        </div>
+                    </section>
+                    <div class="dotDivider">
+                        <img src="vertical%20dots.svg">
+                    </div>
+                    
+                    <section class="projectLeft">
+                        <div class="resumeBottom">
+                            <img src="pi_sw_rewards.jpg" alt="Simply Water App Rewards screen">
+                        </div>
+                        <div class="leftText">
+                            The <em>rewards</em> function was created to give the user something to work towards. By providing rewards such as "free bottles with the return of an old one" or "free refills" we are encouraging people to be more responsible about how they consume water. The page has a straightforward and easy to use design. They are listed vertically. The locks on the side represent the rewards that the user hasnt yet unlocked. Redeeming the reward is the easiest part. Simply go to a refill station, it will recognize the bottle when they go to refill it and the reward will be automatically applied when they go to check out. 
+                        </div>
+                    </section>
+                    <div class="dotDivider">
+                        <img src="vertical%20dots.svg">
+                    </div>
+                    <section class="projectRight">
+                        <div class="rightText">
+                            The bottle screen allows the user to see all of the different bottles that they are currently using. It tells them which ones are emtpy, as well as their stats for each bottle. The user an also scan the barcode of a bottle they recently purchased to add it to their account. This screen was designed to provide an at-a-glance look to the bottles that the user has.  
+                        </div>
+                        <div>
+                            <img class="rightImage" src="pi_sw_bottles.jpg" alt="Simply Water App Bottles screen">
+                        </div>
+                    </section>
+                    <div class="dotDivider">
+                        <img src="vertical%20dots.svg">
+                    </div>
+                    <div class="finalImage">
+                        <video width="60%" id="swVideo" src="sw_intro.mp4"
+                        controls></video>
+                    </div>
+                    <section id="takeawayWrap">
+                        <div id="takeaway">
+                            <h4>Takeaway</h4>
+                            <p>The project taught me how to go above and beyond the required work Creating an entire business/business model to go along with the water bottle was something that I didn't have to do but it allowed the entire project to tie together much easier.</p>
+                        </div>
+                    </section>
+                </div>
+                <div class="connectButton">
+                 <a class="button" href="connect.html">Like What You See? Let's Connect</a>
+                </div>
+            </main>
+            <footer id="footer">
+                <p id="signature">THIS SITE WAS CREATED BY BEN KOLDE FOR IMS222 AT MIAMI UNIVERSITY</p>
+            </footer>
+        </body>
+</html>

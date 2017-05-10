@@ -1,0 +1,100 @@
+<!doctype html>
+    <html lang=en>
+        <head> 
+            <title>Personal Brand</title>
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="mobile.css" media="screen and (min-width: 0px)">
+            <link rel="stylesheet" href="style.css" media="screen and (min-width: 1024px)">
+            <script>
+            window.onscroll = function() {scrollFunction()};
+                function scrollFunction() {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        document.getElementById("myBtn").style.display = "block";
+                    } else {
+                        document.getElementById("myBtn").style.display = "none";
+                    }
+                }
+                function topFunction() {
+                    document.body.scrollTop = 0; 
+                    document.documentElement.scrollTop = 0; 
+                }
+            </script>
+        </head>
+        <body>
+            <header>
+                <div id="nav">
+                    <div id="title">BEN KOLDE</div>
+                    <div id="navChoices">
+                        <a href="index.html">WORK</a>
+                        <a href="about.html">ABOUT</a>
+                        <a href="connect.html">CONNECT</a>
+                        <a href="docs/kolderesumefeb2017.pdf">RESUME</a>
+                    </div>
+                </div>
+            </header>
+            <aside>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+            </aside>
+            <main>
+                <div class="hero">
+                    <img class="heroImage" src="hero_pb.jpg" alt="Ben Kolde Resume Mockup">
+                </div>
+                <div id="titleWrap">
+                    <div class=projectIntro>
+                        <h2>Personal Brand</h2>
+                        <p>Below you will find some mockups that I created for my personal brand. I selected the font, colors, and style all considering my brand. These items make up my personal identity. </p> 
+                    </div>
+                </div>
+                <div id="projectInfo">
+                    <section class="projectLeft">
+                        <div class="leftImage">
+                            <img src="pi_pb_logo.jpg" alt="Ben Kolde logo">
+                        </div>
+                        <div class="leftText">
+                            One of the main things I had to create for myself was a personal logo. This was the part that I actually struggled with the most. I think the reason for this is because I thought nothing that I did in the previous iterations were good enough. Eventually I started to think about what some of my professional values are: driven, precise and passionate about what I do. I think this logo communicates these things through the sharp lines and the deep reds.
+                        </div>
+                    </section>
+                    <div class="dotDivider">
+                        <img src="vertical%20dots.svg">
+                    </div>
+                    <section class="projectRight">
+                        <div class="rightText">
+                            My goal with my resume was to reflect how I wanted to appear to employers and clients. I have a very creative mind but it is also wired for problem solving and analytical thinking. To communicate this I wanted to incorporate graphics as well as type and present it in a interesting and smart way. I really tried to nail the user experience of the resume so someone could find exactly what they are lookign for when they go to look for it. 
+                        </div>
+                        <div>
+                            <img class="rightImage" src="pi_pb_top.jpg" alt="Ben Kolde logo">
+                        </div>
+                    </section>
+                    <div class="dotDivider">
+                        <img src="vertical%20dots.svg">
+                    </div>
+                    <section class="projectLeft">
+                        <div class="resumeBottom">
+                            <img src="pi_pb_bottom.jpg" alt="Ben Kolde resume bottom">
+                        </div>
+                        <div class="leftText">
+                            At the bottom of my resume you see a skyline of Cincinnati. I created this illustration to show where I’m from and to show off my skills that may not be applicable in another part of my resume. As you can see from the picture on the left, my business cards mirror my resume branding. I did this to translate a consistent brand style. This is something that I always try to do in my work.
+                        </div>
+                    </section>
+                    <div class="dotDivider">
+                        <img src="vertical%20dots.svg">
+                    </div>
+                    <div class="finalImage">
+                        <img src="pi_pb_final.jpg" alt="Ben Kolde Personal Brand">
+                    </div>
+                    <section id="takeawayWrap">
+                        <div id="takeaway">
+                            <h4>Takeaway</h4>
+                            <p>This project taught me how to dive deep into a person and/or company in efforts to communicate their values and story into their brand. </p>
+                        </div>
+                    </section>
+                </div>
+                <div class="connectButton">
+                 <a class="button" href="connect.html">Like What You See? Let's Connect</a>
+                </div>
+            </main>
+            <footer id="footer">
+                <p id="signature">THIS SITE WAS CREATED BY BEN KOLDE FOR IMS222 AT MIAMI UNIVERSITY</p>
+            </footer>
+        </body>
+</html>

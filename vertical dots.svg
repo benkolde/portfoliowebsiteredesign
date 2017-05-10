@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="5px" height="81px" viewBox="0 0 5 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M720.5,2079.2387 L720.5,2166.7739" id="path-1"></path>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="5,10" stroke-linejoin="round">
+        <g id="Content-page-wireframe-Copy" transform="translate(-718.000000, -2079.000000)" stroke="#C4414B">
+            <g id="Path-2">
+                <use stroke-width="5" xlink:href="#path-1"></use>
+                <use stroke-width="1" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
